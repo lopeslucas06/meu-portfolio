@@ -260,6 +260,17 @@ footer {
     margin-top: 5px;
     margin-bottom: 0;
 }
+
+.icones {
+    display: flex;    
+    justify-content: center;
+}
+
+.icones img {
+    width: 25px;
+    height: 25px;
+    margin: 10px 5px;
+}
 /* End Rodapé */
 
 .whatsapp img {
