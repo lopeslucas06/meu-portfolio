@@ -160,6 +160,7 @@ main {
     align-items: center;
     justify-content: center;    
     overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.192);
 }
 
 
@@ -228,7 +229,6 @@ main {
 }
 #modal-img {
     width: 65vw;
-    margin-bottom: 10px;
     transform: scale(0);
     transition: all 0.4s linear;
 }
@@ -411,7 +411,12 @@ footer {
     }
     
 }
-
+/* Até 1010px */
+@media (max-width:1040px) {
+    #modal-img {
+        width: 100vw;
+    }
+}
 
 /* Até 1010px */
 @media (max-width:1010px) { 
